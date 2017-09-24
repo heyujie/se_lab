@@ -1,0 +1,13 @@
+	**Command line menu applet V1.0
+	**make by heyujie
+	help -- show help
+	date -- show currence day and time
+	pwd  -- show currence directory
+	ls 	 --	show currence directory files
+	cd	 -- [/]  return the root directory
+		 -- [..] return upper directory
+		 -- [/absolute or relative path] 
+	cat  -- open the file and show it
+	clear-- clear the console
+	exit -- exit the console
+	**To be expanded...

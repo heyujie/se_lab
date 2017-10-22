@@ -1,5 +1,5 @@
 /****************************************
-* @file     	/home/yujie/Code/se_lab/lab4
+* @file			/home/yujie/Code/se_lab/lab4
 * @item			command line menu V2.8
 * @author		HEYUJIE SA17225115
 * @version		V2.8
@@ -16,8 +16,6 @@
 
 #define 	FILEPATH_MAX  		80
 #define 	CMD_MAX_LENGTH 		128
-//#define DESC_LEN    1024
-//#define CMD_NUM     10
 
 void help();		
 void getTime();
@@ -87,9 +85,9 @@ int InitMenuData(tLinkTable **ppLinktable)
     AddLinkTableNode(*ppLinktable, (tLinkTableNode *)pNode);
 
     pNode = (tDataNode *)malloc(sizeof(tDataNode));
-	pNode->cmd = "date";
-	pNode->desc = "Get current time.";
-	pNode->handler = getTime;
+    pNode->cmd = "date";
+    pNode->desc = "Get current time.";
+    pNode->handler = getTime;
     AddLinkTableNode(*ppLinktable, (tLinkTableNode *)pNode);
 
     pNode = (tDataNode *)malloc(sizeof(tDataNode));
